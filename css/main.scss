@@ -18,3 +18,9 @@ h1 {
   }
 }
 
+#main {
+  background-image: url("/assets/stair1.png"), url("/assets/stair3.png"), url("/assets/stair2.png");
+  background-repeat: no-repeat, no-repeat, repeat-y;
+  background-size: 150px;
+  background-position: top right, bottom right, top right;
+}
