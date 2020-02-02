@@ -1,0 +1,19 @@
+<div id="beers">
+    <h2>Nos bières</h2>
+
+    <div class="row">
+        {% for beer in site.data.beers %}
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ beer.image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ beer.name }}</h5>
+                    <p class="card-text"> {{ beer.description }}</p>
+                    <p class="card-text"> {{ beer.abv }}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
