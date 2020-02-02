@@ -8,9 +8,13 @@ html {
 }
 h1 {
     font-size: 50px;
-}  
+}
 
 #banner {
-    background-image: url("https://via.placeholder.com/728x90.png");
+  padding: 0;
+  margin: 0;
+  img {
+    width: 100%;
+  }
 }
 
