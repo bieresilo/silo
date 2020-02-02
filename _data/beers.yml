@@ -1,7 +1,8 @@
 - name: Boob
-  image: /assets/biere1.svg
+  image: /assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
+  type: Rousse
 
 - name: Bob
   image: 
