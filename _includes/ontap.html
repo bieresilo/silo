@@ -1,15 +1,14 @@
-<div id="ontap">
+<div id="ontap" class="container">
     <h2>Menu en fût</h2>
 
     <div class="row">
-        <ul>
-            <li>Lorem ipsum</li>
-        
-            <li>dolor sit amet</li>
-                
-            <li>consectetur adipiscing</li>
-                
-            <li>elit, sed do</li>
+        <ul class="list-group list-group-flush">
+            {% for beer in site.data.ontap %}
+                <li class="list-group-item">
+                    <h5 class="mb-0">{{ beer.name }}</h5>
+                    <small>{{beer.type}}, {{beer.abv}}</small>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 </div>

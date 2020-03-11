@@ -1,0 +1,12 @@
+- name: Camille
+  type: IPA
+  abv: 5%
+- name: Bob
+  type: IPA
+  abv: 5%
+- name: Joe
+  type: IPA
+  abv: 5%
+- name: Era
+  type: IPA
+  abv: 5%

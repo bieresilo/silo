@@ -8,8 +8,16 @@
       <div class="container">
         {% include about.html %}
         {% include beers.html %}
-        {% include ontap.html %}
-        {% include takeout.html %}
+        <div class="container" id="ontaptakeout">
+          <div class=row>
+            <div class="col">
+              {% include ontap.html %}
+            </div>
+            <div class="col">
+              {% include takeout.html %}
+            </div>
+          </div>
+        </div>
         {% include location.html %}
       </div>
     </div>
