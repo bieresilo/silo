@@ -1,0 +1,14 @@
+- day: Dimanche
+  hours: Fermé
+- day: Lundi
+  hours: Fermé
+- day: Mardi
+  hours: Fermé
+- day: Mercredi
+  hours: Fermé
+- day: Jeudi
+  hours: 17:00 - 23:00
+- day: Vendredi
+  hours: 17:00 - 23:00
+- day: Samedi
+  hours: Fermé

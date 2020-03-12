@@ -102,10 +102,18 @@ h2 {
   .address {
     text-decoration: underline;
   }
-  min-height: 800px;
+  .map{
+    padding-top: 25px;
+  }
+  padding-bottom: 90px;
+  min-height: 490px;
   text-align: center;
-  background-image: url("/assets/silo_scene4.jpg");
-  background-position: bottom center;
+  background-image: url("/assets/silo_scene4.jpg"), url("/assets/silo_mid.jpg");
+  background-position: bottom center, top center;
   background-size: 350px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, repeat-y;
+}
+
+.no-border {
+  border: 0;
 }
