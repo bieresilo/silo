@@ -5,31 +5,31 @@
   type: Rousse
 
 - name: Bob2
-  image: /assets/can1.png
+  image: assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
   type: Rousse
 
 - name: Bob3
-  image: /assets/can1.png
+  image: assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
   type: Rousse
 
 - name: Bob4
-  image: /assets/can1.png
+  image: assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
   type: Rousse
 
 - name: Bob5
-  image: /assets/can1.png
+  image: assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
   type: Rousse
 
 - name: Bob6
-  image: /assets/can1.png
+  image: assets/can1.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
   abv: 5%
   type: Rousse
