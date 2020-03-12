@@ -65,7 +65,7 @@ h2 {
   padding-top:25px;
   padding-right:50px;
   padding-bottom:100px;
-  background-image: url("/assets/silo_top.jpg"), url("/assets/silo_bot.jpg"),url("/assets/silo_mid.jpg");
+  background-image: url("../assets/silo_top.jpg"), url("../assets/silo_bot.jpg"),url("../assets/silo_mid.jpg");
   background-position: top center, bottom center, top center;
   background-size: 350px;
   background-repeat: no-repeat, no-repeat, repeat-y;
@@ -74,7 +74,7 @@ h2 {
 #beers {
   text-align: center;
   padding-bottom: 200px;
-  background-image: url("/assets/silo_scene2.jpg"),url("/assets/silo_mid.jpg");
+  background-image: url("../assets/silo_scene2.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 350px;
   background-repeat: no-repeat, repeat-y;
@@ -84,7 +84,7 @@ h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("/assets/silo_scene3.jpg"),url("/assets/silo_mid.jpg");
+  background-image: url("../assets/silo_scene3.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 350px;
   background-repeat: no-repeat, repeat-y;
@@ -108,7 +108,7 @@ h2 {
   padding-bottom: 90px;
   min-height: 490px;
   text-align: center;
-  background-image: url("/assets/silo_scene4.jpg"), url("/assets/silo_mid.jpg");
+  background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 350px;
   background-repeat: no-repeat, repeat-y;
