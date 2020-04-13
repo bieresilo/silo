@@ -1,13 +1,14 @@
 <div id="location" class="container">
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 section">
             
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" id="coordonnees">
+            <div class="section">
             <h2>Coordonnées</h2>
             <p class="address">109 rue de Louvain Ouest
                 <br> Montréal (Qc), H2N 1A4
@@ -20,7 +21,9 @@
             <a href="https://www.instagram.com/brasseriesilo/?hl=fr-ca"></a><i class="fab fa-instagram" style="font-size:36px"></i></a>
             <div></div>
         </div>
-        <div class="col-md-6">
+        </div>
+        <div class="col-md-6" id="heures">
+                <div class="section">
             <h2>Heures d'ouverture</h2>
             <ul class="list-group list-group-flush">
                 {% for hours in site.data.hours %}
@@ -29,6 +32,7 @@
                     </li>
                 {% endfor %}
             </ul>
+        </div>
         </div>
     </div>
 
