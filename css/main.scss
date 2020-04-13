@@ -62,31 +62,32 @@ h2 {
 
 #about {
   text-align: center;
-  padding-top:25px;
-  padding-right:50px;
-  padding-bottom:100px;
+  padding-top:100px;
+  padding-right:175px;
+  padding-bottom:125px;
   background-image: url("../assets/silo_top.jpg"), url("../assets/silo_bot.jpg"),url("../assets/silo_mid.jpg");
   background-position: top center, bottom center, top center;
-  background-size: 350px;
+  background-size: 200px;
   background-repeat: no-repeat, no-repeat, repeat-y;
 }
 
 #beers {
   text-align: center;
-  padding-bottom: 200px;
+  padding-top: 75px;
+  padding-bottom: 225px;
   background-image: url("../assets/silo_scene2.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
-  background-size: 350px;
+  background-size: 200px;
   background-repeat: no-repeat, repeat-y;
 }
 
 #ontaptakeout {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 125px;
+  padding-bottom: 225px;
   background-image: url("../assets/silo_scene3.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
-  background-size: 350px;
+  background-size: 200px;
   background-repeat: no-repeat, repeat-y;
 }
 
@@ -105,12 +106,13 @@ h2 {
   .map{
     padding-top: 25px;
   }
+  padding-top: 50px;
   padding-bottom: 90px;
   min-height: 490px;
   text-align: center;
   background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
-  background-size: 350px;
+  background-size: 200px;
   background-repeat: no-repeat, repeat-y;
 }
 
