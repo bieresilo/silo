@@ -1,0 +1,14 @@
+<div id="hours" class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 section">
+      <h2>Heures d'ouverture</h2>
+      <ul class="list-group list-group-flush">
+          {% for hours in site.data.hours %}
+              <li class="list-group-item no-border bg-transparent">
+                  {{ hours.day }}: <span style="font-weight: lighter;">{{hours.hours}}</span>
+              </li>
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

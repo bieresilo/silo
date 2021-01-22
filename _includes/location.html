@@ -1,39 +1,17 @@
 <div id="location" class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 section">
+      <h2>Coordonnées</h2>
+      <p class="address">109 rue de Louvain Ouest
+        <br> Montréal (Qc), H2N 1A4
+      </p>
 
-    <div class="row">
-        <div class="col-md-6 section">
-            
-        </div>
+      <div>
+        <p><i class="far fa-envelope" style="font-size:36px;vertical-align: middle;"></i> <span>info@bieresilo.com</span></p>
+      </div>
+      <a href="https://www.facebook.com/bieresilo/"><i class="fab fa-facebook-square" style="font-size:36px"></i></a>
+      <a href="https://www.instagram.com/brasseriesilo/?hl=fr-ca"></a><i class="fab fa-instagram" style="font-size:36px"></i></a>
+      <div></div>
     </div>
-
-    <div class="row">
-        <div class="col-md-6" id="coordonnees">
-            <div class="section">
-            <h2>Coordonnées</h2>
-            <p class="address">109 rue de Louvain Ouest
-                <br> Montréal (Qc), H2N 1A4
-            </p>
-    
-            <div>
-                <p><i class="far fa-envelope" style="font-size:36px;vertical-align: middle;"></i> <span>info@bieresilo.com</span></p>
-            </div>
-            <a href="https://www.facebook.com/bieresilo/"><i class="fab fa-facebook-square" style="font-size:36px"></i></a>
-            <a href="https://www.instagram.com/brasseriesilo/?hl=fr-ca"></a><i class="fab fa-instagram" style="font-size:36px"></i></a>
-            <div></div>
-        </div>
-        </div>
-        <div class="col-md-6" id="heures">
-                <div class="section">
-            <h2>Heures d'ouverture</h2>
-            <ul class="list-group list-group-flush">
-                {% for hours in site.data.hours %}
-                    <li class="list-group-item no-border bg-transparent">
-                        {{ hours.day }}: <span style="font-weight: lighter;">{{hours.hours}}</span>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-        </div>
-    </div>
-
+  </div>
 </div>

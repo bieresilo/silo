@@ -63,17 +63,14 @@ h2 {
 
 #about {
   text-align: center;
-  padding-top:100px;  
+  padding-top:100px;
   padding-bottom:125px;
   background-image: url("../assets/silo_top.jpg"), url("../assets/silo_bot.jpg"),url("../assets/silo_mid.jpg");
   background-position: top center, bottom center, top center;
   background-size: 200px;
   background-repeat: no-repeat, no-repeat, repeat-y;
-  @include media-breakpoint-up(md){
-    padding-right:175px;
-  }
   @include media-breakpoint-down(sm){
-    padding-top:125px;  
+    padding-top:125px;
   }
 }
 
@@ -86,11 +83,11 @@ h2 {
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
   @include media-breakpoint-down(sm){
-    padding-bottom:175px;  
+    padding-bottom:175px;
   }
 }
 
-#ontaptakeout {
+#ontap {
   text-align: center;
   padding-top: 125px;
   padding-bottom: 225px;
@@ -99,7 +96,20 @@ h2 {
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
   @include media-breakpoint-down(sm){
-    padding-top:75px;  
+    padding-top:75px;
+  }
+}
+
+#takeout {
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 225px;
+  background-image: url("../assets/silo_scene3.jpg"),url("../assets/silo_mid.jpg");
+  background-position: bottom center, top center;
+  background-size: 200px;
+  background-repeat: no-repeat, repeat-y;
+  @include media-breakpoint-down(sm){
+    padding-top:75px;
   }
 }
 
@@ -110,7 +120,7 @@ h2 {
     margin: auto;
   }
   @include media-breakpoint-down(sm){
-    padding-bottom:25px;  
+    padding-bottom:25px;
   }
 }
 
@@ -127,21 +137,24 @@ h2 {
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
   @include media-breakpoint-down(sm){
-    padding-top:50px;  
-    padding-bottom:75px;  
+    padding-top:50px;
+    padding-bottom: 25px;
   }
 }
 
-#coordonnees {
+#hours {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  min-height: 490px;
+  text-align: center;
+  background-image: url("../assets/silo_scene2.jpg"), url("../assets/silo_mid.jpg");
+  background-position: bottom center, top center;
+  background-size: 200px;
+  background-repeat: no-repeat, repeat-y;
   @include media-breakpoint-down(sm){
-    padding-bottom: 25px;
-  } 
-}
-
-#heures {
-  @include media-breakpoint-down(sm){
+    padding-top:50px;
     padding-bottom: 200px;
-  } 
+  }
 }
 
 .no-border {
@@ -149,10 +162,8 @@ h2 {
 }
 
 .section {
-  @include media-breakpoint-down(sm){
   background-color: rgba(255,255,255,0.75);
   box-shadow: 0 0 40px 30px rgba(255,255,255,0.75);
-  } 
 }
 
 .carousel-control-next-icon{

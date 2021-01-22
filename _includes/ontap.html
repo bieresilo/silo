@@ -1,14 +1,18 @@
-<div id="ontap" class="container section">
-    <h2>Menu en fût</h2>
-
+<div class="container" id="ontap">
     <div class="row">
-        <ul class="list-group list-group-flush">
-            {% for beer in site.data.ontap %}
-                <li class="list-group-item">
-                    <h5 class="mb-0">{{ beer.name }}</h5>
-                    <small>{{beer.type}}, {{beer.abv}}</small>
-                </li>
-            {% endfor %}
-        </ul>
+        <div class="col-md-6 offset-md-3 section">
+          <h2>Menu en fût</h2>
+
+          <div class="row">
+              <ul class="list-group list-group-flush">
+                  {% for beer in site.data.ontap %}
+                      <li class="list-group-item">
+                          <h5 class="mb-0">{{ beer.name }}</h5>
+                          <small>{{beer.type}}, {{beer.abv}}</small>
+                      </li>
+                  {% endfor %}
+              </ul>
+          </div>
+        </div>
     </div>
 </div>
