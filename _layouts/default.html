@@ -8,8 +8,23 @@
       <div class="container">
         {% include about.html %}
         {% include beers.html %}
-        {% include ontap.html %}
-        {% include takeout.html %}
+        <div class="container" id="ontaptakeout">
+          <div class="section">
+            <div class=row>
+              <div class="col-md-6 offset-md-3 pb-3">
+                <h2>Sur place à la brasserie</h2>
+              </div>
+            </div>
+            <div class=row>
+              <div class="col">
+                {% include ontap.html %}
+              </div>
+              <div class="col">
+                {% include takeout.html %}
+              </div>
+            </div>
+          </div>
+        </div>
         {% include hours.html %}
         {% include location.html %}
       </div>

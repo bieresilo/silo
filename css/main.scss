@@ -13,6 +13,13 @@ h1 {
     font-size: 50px;
 }
 
+#main {
+  width: 80%;
+  margin: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 #banner {
   text-align:center;
   background-color: white;
@@ -54,11 +61,22 @@ h1 {
   color: #aaa;
 }
 
+.modal-link li {
+  cursor: pointer;
+}
+
 h2 {
   text-align: center;
   font-weight: lighter;
   padding: 8px 0;
   font-size: 1.75rem;
+}
+
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  padding: 8px 0;
+  font-size: 1.6rem;
 }
 
 #about {
@@ -87,20 +105,7 @@ h2 {
   }
 }
 
-#ontap {
-  text-align: center;
-  padding-top: 125px;
-  padding-bottom: 225px;
-  background-image: url("../assets/silo_scene3.jpg"),url("../assets/silo_mid.jpg");
-  background-position: bottom center, top center;
-  background-size: 200px;
-  background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:75px;
-  }
-}
-
-#takeout {
+#ontaptakeout {
   text-align: center;
   padding-top: 125px;
   padding-bottom: 225px;
@@ -180,3 +185,5 @@ h2 {
     background-color: black;
   }
 }
+
+

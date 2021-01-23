@@ -1,12 +1,16 @@
 - name: Camille
   type: IPA
   abv: 5%
+  id: 0
 - name: Bob
   type: IPA
   abv: 5%
+  id: 2
 - name: Joe
   type: IPA
   abv: 5%
+  id: 3
 - name: Era
   type: IPA
   abv: 5%
+  id: 4
