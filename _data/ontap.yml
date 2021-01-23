@@ -1,11 +1,11 @@
-- name: Camille
+- name: Foo
   type: IPA
   abv: 5%
-  id: 0
-- name: Bob
+  id: 4
+- name: Bar
   type: IPA
   abv: 5%
-  id: 2
+  id: 5
 - name: Joe
   type: IPA
   abv: 5%

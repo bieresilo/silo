@@ -1,0 +1,13 @@
+<div id="hours" class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 section">
+      <h2>Revue de presse</h2>
+      <ul class="list-group list-group-flush">
+          {% for press in site.data.press %}
+            <li class="list-group-item no-border bg-transparent">
+              <a href="{{ press.link }}">{{ press.title }}</a>
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

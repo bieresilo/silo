@@ -147,6 +147,21 @@ h3 {
   }
 }
 
+#press {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  min-height: 490px;
+  text-align: center;
+  background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
+  background-position: bottom center, top center;
+  background-size: 200px;
+  background-repeat: no-repeat, repeat-y;
+  @include media-breakpoint-down(sm){
+    padding-top:50px;
+    padding-bottom: 200px;
+  }
+}
+
 #hours {
   padding-top: 50px;
   padding-bottom: 90px;
