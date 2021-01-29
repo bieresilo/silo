@@ -16,8 +16,9 @@ h1 {
 #main {
   width: 80%;
   margin: auto;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  box-shadow: 10px 0 10px -13px #888, -10px 0 10px -13px #888;
 }
 
 #banner {
@@ -81,41 +82,36 @@ h3 {
 
 #about {
   text-align: center;
-  padding-top:100px;
-  padding-bottom:125px;
-  background-image: url("../assets/silo_top.jpg"), url("../assets/silo_bot.jpg"),url("../assets/silo_mid.jpg");
+  padding-top:80px;
+  padding-bottom:80px;
+  background-image: url("../assets/silo_top.jpg"), url("../assets/silo_scene1.jpg"),url("../assets/silo_mid.jpg");
   background-position: top center, bottom center, top center;
   background-size: 200px;
   background-repeat: no-repeat, no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:125px;
-  }
 }
 
 #beers {
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 225px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   background-image: url("../assets/silo_scene2.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-bottom:175px;
+
+  > .section {
+    padding-bottom: 40px;
   }
 }
 
 #ontaptakeout {
   text-align: center;
-  padding-top: 125px;
-  padding-bottom: 225px;
+  padding-top: 1px;
+  padding-bottom: 80px;
   background-image: url("../assets/silo_scene3.jpg"),url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:75px;
-  }
 }
 
 #ontap, #takeout {
@@ -129,56 +125,49 @@ h3 {
   }
 }
 
+#press {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
+  background-position: bottom center, top center;
+  background-size: 200px;
+  background-repeat: no-repeat, repeat-y;
+}
+
+#hours {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url("../assets/silo_scene5.jpg"), url("../assets/silo_mid.jpg");
+  background-position: bottom center, top center;
+  background-size: 200px;
+  background-repeat: no-repeat, repeat-y;
+}
+
 #location {
   .address {
     text-decoration: underline;
   }
-  padding-top: 50px;
-  padding-bottom: 90px;
-  min-height: 490px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  min-height: 550px;
   text-align: center;
-  background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
+  background-image: url("../assets/silo_scene6.jpg"), url("../assets/silo_mid.jpg");
   background-position: bottom center, top center;
   background-size: 200px;
   background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:50px;
-    padding-bottom: 25px;
-  }
 }
 
-#press {
-  padding-top: 50px;
-  padding-bottom: 90px;
-  min-height: 490px;
-  text-align: center;
-  background-image: url("../assets/silo_scene4.jpg"), url("../assets/silo_mid.jpg");
-  background-position: bottom center, top center;
-  background-size: 200px;
-  background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:50px;
-    padding-bottom: 200px;
-  }
-}
-
-#hours {
-  padding-top: 50px;
-  padding-bottom: 90px;
-  min-height: 490px;
-  text-align: center;
-  background-image: url("../assets/silo_scene2.jpg"), url("../assets/silo_mid.jpg");
-  background-position: bottom center, top center;
-  background-size: 200px;
-  background-repeat: no-repeat, repeat-y;
-  @include media-breakpoint-down(sm){
-    padding-top:50px;
-    padding-bottom: 200px;
-  }
-}
 
 #footer_photos {
   position: relative;
+  padding-bottom: 300px;
+  margin-bottom: 100px;
+  background-image: url("../assets/silo_chat.jpg");
+  background-position: bottom center;
+  background-size: 200px;
+  background-repeat: no-repeat;
 
   .photos {
     top: 0;
@@ -202,7 +191,10 @@ h3 {
 
 .section {
   background-color: rgba(255,255,255,0.75);
-  box-shadow: 0 0 40px 30px rgba(255,255,255,0.75);
+  box-shadow: 0 0 20px 20px rgba(255,255,255,0.75);
+  clip-path: inset(-40px 0px -40px 0px);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .carousel-control-next-icon{
