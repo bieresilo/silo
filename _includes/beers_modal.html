@@ -23,7 +23,9 @@
                 {% endif %}
                 <h5>{{ beer.name }}</h5>
                 <p>{{ beer.description }}</p>
-                <img class="d-block w-100" src="{{ beer.image }}" alt="First slide" />
+                <div class="beer-image">
+                  <img class="d-block w-100" src="{{ beer.image }}" alt="First slide" />
+                </div>
               </div>
               {% endfor %}
             </div>
