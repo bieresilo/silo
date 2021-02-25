@@ -1,16 +1,38 @@
-- name: Camille
-  type: IPA
-  abv: 5%
+- name: Louvain
+  type: Svetly lezak
+  abv: 4,5%
   id: 1
-- name: Bob
-  type: IPA
+- name: Chabanel
+  type: Pilsner montréalaise
   abv: 5%
   id: 2
-- name: Joe
-  type: IPA
+- name: St-Laurent
+  type: type kölsch
   abv: 5%
   id: 3
-- name: Era
-  type: IPA
+- name: Fleury
+  type: Altbier
   abv: 5%
   id: 4
+- name: Goyave
+  type: IPA à la goyave
+  abv: 7%
+  id: 5
+- name: Bob
+  type: APA
+  abv: 5,5%
+  id: 6
+- name: Irma
+  type: Session IPA
+  abv: 4%
+  id: 7
+- name: Ginette
+  type: Sure houblonnée
+  abv: 3,5%
+  id: 8
+- name: Francesco
+  type: Porter coco
+  abv: 4,6%
+  id: 9
+  
+  
