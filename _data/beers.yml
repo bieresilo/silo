@@ -1,35 +1,29 @@
-- name: Boob
+- name: Louvain, 
   image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
-  abv: 5%
-  type: Rousse
+  description: 
+  abv: 4,5 %
+  type: Svetly lezak
 
-- name: Bob2
+- name: Chabanel
   image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
+  description: 
   abv: 5%
-  type: Rousse
+  type: Pilsner montréalaise
 
-- name: Bob3
+- name: St-Laurent
   image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
+  description:
   abv: 5%
-  type: Rousse
+  type: Type kölsch
 
-- name: Bob4
+- name: Fleury
   image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
+  description:
   abv: 5%
-  type: Rousse
+  type: Altbier
 
-- name: Bob5
+- name: Silo G
   image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
-  abv: 5%
-  type: Rousse
-
-- name: Bob6
-  image: assets/can1.png
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus purus in massa tempor nec feugiat nisl. Viverra maecenas accumsan lacus vel.
-  abv: 5%
-  type: Rousse
+  description:
+  abv: 7%
+  type: IPA à la goyave
