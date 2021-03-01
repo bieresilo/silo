@@ -19,6 +19,11 @@ h1 {
   border-left: 1px solid #888;
   border-right: 1px solid #888;
   box-shadow: 10px 0 10px -13px #888, -10px 0 10px -13px #888;
+  padding-bottom: 50px;
+  background-image: url("../assets/silo_mid.jpg");
+  background-position: top center;
+  background-size: 200px;
+  background-repeat: repeat-y;
 }
 
 #banner {
@@ -169,6 +174,12 @@ h3 {
     background-position: top center;
     background-size: 200px;
     background-repeat: repeat-y;
+
+    width: 80%;
+    margin: auto;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    box-shadow: 10px 0 10px -13px #888, -10px 0 10px -13px #888;
   }
   .chat {
     height: 100px;
@@ -224,4 +235,10 @@ h3 {
 
 .beer-image {
   background-color: black;
+}
+
+.photo-modal {
+  img {
+    width: 100%;
+  }
 }
