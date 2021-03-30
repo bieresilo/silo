@@ -22,6 +22,7 @@
   type: APA
   abv: 5,5%
   id: 5
+  link: birra.ca
 - name: Irma
   type: Session IPA
   abv: 4%
@@ -34,5 +35,3 @@
   type: Porter coco
   abv: 4,6%
   id: 8
-  
-  
