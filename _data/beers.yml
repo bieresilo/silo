@@ -6,19 +6,19 @@
 
 - name: Chabanel
   image: assets/can1.png
-  description: À quoi auraient ressemblées les lagers blondes nord-américaines si on ne les avait pas diluées à l’infinie? La Chabanel incorpore un peu de maïs à une base de pils qui aurait plu aux Allemands qui ont tant influencé la bière en Amérique. Des arômes de houblons fruités et herbacés et une pointe de maïs appellent à prendre une gorgée de ce liquide doucement malté à la finale sèche et amère. 
+  description: À quoi auraient ressemblé les lagers blondes nord-américaines si on ne les avait pas diluées à l’infini? La Chabanel incorpore un peu de maïs à une base de pils qui aurait plu aux Allemands qui ont tant influencé la bière en Amérique. Des arômes de houblons fruités et herbacés et une pointe de maïs appellent à prendre une gorgée de ce liquide doucement malté à la finale sèche et amère.
   abv: 5%
   type: Pilsner montréalaise
 
 - name: St-Laurent
   image: assets/can1.png
-  description: "Les brasseurs de Cologne voulant se défendre contre l’omniprésence de la pils en Allemagne ont créés leur style: la kölsch Blonde limpide à la mousse fine, la St-Laurent a un nez de miel et de fruits jaunes, subtile mais envoutant. Son goût est légèrement plus sucré qu’amer mais reste assez léger pour qu’elle disparaisse rapidement. Traditionnellement servie dans un verre de 200 ml, c’est une bière à apprivoiser toute une soirée."
+  description: "Les brasseurs de Cologne, voulant se défendre contre l’omniprésence de la pils en Allemagne, ont créé leur style: la kölsch Blonde limpide à la mousse fine, la St-Laurent a un nez de miel et de fruits jaunes, subtil mais envoutant. Son goût est légèrement plus sucré qu’amer, mais il reste assez léger pour que la bière disparaisse rapidement. Traditionnellement servie dans un verre de 200 ml, cette bière doit être apprivoisée toute une soirée."
   abv: 5%
   type: Type kölsch
 
 - name: Fleury
   image: assets/can1.png
-  description: Cousines de la kölsch, les altbier sont aussi des Ales dans une mer de lagers. Fermentées plus froides que les ales des pays voisins, les alts ont des arômes de fermentation discrets qui laissent la place à un malt légèrement grillé, caramélisé et une amertume franche qui nettoie le palais et laisse une légère note d’épices.
+  description: Cousines de la kölsch, les altbiers sont aussi des ales dans une mer de lagers. Fermentées à plus basse température que les ales des pays voisins, les alts ont des arômes de fermentation discrets qui laissent la place à un malt légèrement grillé et caramélisé et à une amertume franche qui nettoie le palais et laisse une légère note d’épices.
   abv: 5%
   type: Altbier
 
