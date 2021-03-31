@@ -39,7 +39,7 @@ h1 {
 }
 
 .beer-carousel {
-  min-height: 40em;
+  min-height: 50em;
   .carousel-caption {
     color: black;
   }
@@ -130,7 +130,9 @@ h3 {
 #ontap, #takeout {
   .list-group {
     text-align:center;
-    width: 60%;
+    @include media-breakpoint-up(sm) {
+      width: 60%;
+    }
     margin: auto;
   }
   @include media-breakpoint-down(sm){
