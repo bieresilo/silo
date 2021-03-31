@@ -4,6 +4,7 @@
     <div class="row">
         <ul class="list-group list-group-flush">
             {% for beer in site.data.takeout %}
+              {% if beer.id %}
               <div class="modal-link" data-toggle="modal" data-target="#beersModal">
                 <div
                   data-target="#carouselBeersIndicators"
@@ -15,6 +16,14 @@
                   </li>
                 </div>
               </div>
+              {% else %}
+              <a href="{{beer.link}}" target="_blank">
+                <li class="list-group-item">
+                    <h5 class="mb-0">{{ beer.name }}</h5>
+                    <small>{{beer.type}}, {{beer.abv}}</small>
+                </li>
+              </a>
+              {% endif %}
             {% endfor %}
         </ul>
     </div>

@@ -21,17 +21,16 @@
 - name: Bob
   type: APA
   abv: 5,5%
-  id: 5
-  link: birra.ca
+  link: https://birra.ca
 - name: Irma
   type: Session IPA
   abv: 4%
-  id: 6
+  link: https://birra.ca
 - name: Ginette
   type: Sure houblonnée
   abv: 3,5%
-  id: 7
+  link: https://birra.ca
 - name: Francesco
   type: Porter coco
   abv: 4,6%
-  id: 8
+  link: https://birra.ca
