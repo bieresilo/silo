@@ -26,6 +26,7 @@
               <div class="carousel-item">
               {% endif %}
                 <h5>{{ beer.name }}</h5>
+                 <small>{{beer.type}}, {{beer.abv}}</small>
                 <p>{{ beer.description }}</p>
                 <div class="beer-image">
                   <img class="d-block w-100" src="{{ beer.image }}" alt="First slide" />
