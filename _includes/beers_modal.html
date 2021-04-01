@@ -22,10 +22,12 @@
               <div class="carousel-item">
                 {% endif %}
                 <h5>{{ beer.name }}</h5>
-                <p>{{ beer.description }}</p>
+                <p>{{beer.type}}, {{beer.abv}}</p>
+             
                 <div class="beer-image">
                   <img class="d-block w-100" src="{{ beer.image }}" alt="First slide" />
                 </div>
+                <p>{{ beer.description }}</p>
               </div>
               {% endfor %}
             </div>
