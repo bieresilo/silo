@@ -23,7 +23,7 @@
   type: Altbier
   
 - name: Des Carrières
-  image: assets/Des_Carrieres_MockUp.png
+  image: assets/Silo_DesCarrieres_MockUp.png
   description: À 5 % d'alcool, cette lager brune très foncée offre des arômes complexes de malts, de chocolat et de caramel. Une fermentation lente et une longue maturation donnent à cette bière une rondeur et une douceur contrebalancée par une amertume rafraîchissante.
   abv: 5%
   type: Schwarzbier
