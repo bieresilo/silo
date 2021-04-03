@@ -21,9 +21,16 @@
   description: Cousines de la kölsch, les altbiers sont aussi des ales dans une mer de lagers. Fermentées à plus basse température que les ales des pays voisins, les alts ont des arômes de fermentation discrets qui laissent la place à un malt légèrement grillé et caramélisé et à une amertume franche qui nettoie le palais et laisse une légère note d’épices.
   abv: 5%
   type: Altbier
+  
+- name: Des Carrières
+  image: assets/Des_Carrieres_MockUp.png
+  description: À 5 % d'alcool, cette lager brune très foncée offre des arômes complexes de malts, de chocolat et de caramel. Une fermentation lente et une longue maturation donnent à cette bière une rondeur et une douceur contrebalancée par une amertume rafraîchissante.
+  abv: 5%
+  type: Schwarzbier
 
 - name: Silo G
   image: assets/Silo_G_MockUp.png
-  description:
+  description: Une IPA à la goyave à l’amertume modérée et aux arômes intenses de fruits tropicaux. L’ajout de goyave après la fermentation complémente les houblons aromatiques Citra, Ekuanot et Amarillo.
   abv: 7%
   type: IPA à la goyave
+ 
