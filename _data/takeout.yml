@@ -3,18 +3,22 @@
   abv: 4,5%
   id: 0
 - name: Chabanel
-  type: Pilsner montréalaise
+  type: Pilsner montréalaise avec maïs
   abv: 5%
   id: 1
 - name: St-Laurent
-  type: type kölsch
+  type: Kölsch
   abv: 5%
   id: 2
 - name: Fleury
   type: Altbier
   abv: 5%
   id: 3
-- name: Goyave
+- name: Des Carrières
+  type: Schwarzbier
+  abv: 5%
+  id: 3
+- name: Silo G
   type: IPA à la goyave
   abv: 7%
   id: 4
@@ -22,15 +26,15 @@
   type: APA
   abv: 5,5%
   link: https://birra.ca
-- name: Irma
-  type: Session IPA
-  abv: 4%
-  link: https://birra.ca
 - name: Ginette
   type: Sure houblonnée
   abv: 3,5%
   link: https://birra.ca
 - name: Francesco
-  type: Porter coco
+  type: Porter noix de coco
   abv: 4,6%
+  link: https://birra.ca
+- name: Léandre
+  type: NEIPA double dry hop
+  abv: 7%
   link: https://birra.ca
