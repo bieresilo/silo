@@ -17,11 +17,23 @@
 - name: Des Carrières
   type: Schwarzbier
   abv: 5%
-  id: 3
+  id: 4
 - name: Silo G
   type: IPA à la goyave
   abv: 7%
-  id: 4
+  id: 5
+- name: Lagerbier
+  type: Bière franconienne
+  abv: 5%
+  id: 6
+- name: Silo C
+  type: IPA aux houblons classiques
+  abv: 6,5%
+  id: 7
+- name: Desitka
+  type: Svetly vycepni
+  abv: 3,7%
+  id: 8 
 - name: Bob
   type: APA
   abv: 5,5%
