@@ -34,3 +34,20 @@
   abv: 7%
   type: IPA à la goyave
  
+- name: Lagerbier
+  image: assets/Silo_Lagerbier_MockUp.png
+  description: Cette lager est brassée avec en tête nos voyages en Franconie, dans le nord de la Bavière. C'est un endroit où la bière fait partie du quotidien, tout simplement. Brassée avec la variété d'orge ancestrale Barke et du houblon allemand, cette bière est douce, maltée et peu amère, légèrement fruitée avec un petit je-ne-sais-quoi rustique. Kellerbier, Zwickelbier, Lagerbier: peu importe le nom, tant que c'est bon
+  abv: 5%
+  type: Bière franconienne
+  
+  - name: Silo C
+  image: assets/Silo_C_MockUp.png
+  description: Cette IPA 100 % houblons Centennial est remplie de saveurs d'agrumes. Son amertume est franche mais équilibrée. Les prochaines versions mettront en vedettes d'autres houblons classiques comme le Cascade, autrefois le porte-étendard de la révolution brassicole nord-américaine!
+  abv: 6,5%
+  type: IPA aux houblons classiques
+  
+  - name: Desitka
+  image: assets/Silo_Desitka_MockUp.png
+  description: DESITKA, svetly vycepni. ''La 10'', petit nom affectueux que les tchèques donnent au style le plus populaire du pays. Une lager blonde au taux d'alcool raisonnable (3,7 %), parfaite pour les longues soirées. Des arômes de houblon Saaz et de malts de bohème, du caramel et une franche amertume: tout ce qu'on aime d'une bonne bière! Si vous avez aimé la Louvain et la Poudreuse, cette bière est pour vous
+  abv: 3,7%
+  type: Svetly Vycepni
