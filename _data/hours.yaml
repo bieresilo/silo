@@ -1,5 +1,5 @@
 - day: Dimanche
-  hours: Fermé
+  hours: 13:00 - 20:00
 - day: Lundi
   hours: Fermé
 - day: Mardi
@@ -7,8 +7,8 @@
 - day: Mercredi
   hours: Fermé
 - day: Jeudi
-  hours: 15:00 - 19:00
+  hours: 15:00 - 23:00
 - day: Vendredi
-  hours: 15:00 - 19:00
+  hours: 15:00 - 23:00
 - day: Samedi
-  hours: 13:00 - 18:00
+  hours: 13:00 - 20:00
