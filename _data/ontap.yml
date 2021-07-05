@@ -9,7 +9,7 @@
  type: Pilsner montréalaise
  abv: 5%
  id: 1
- - name: St-Laurent
+ - name: "St-Laurent"
  type: Kölsch
  abv: 5%
  id: 2
