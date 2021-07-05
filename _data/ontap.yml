@@ -1,36 +1,36 @@
 - name: Poudreuse
- type: Svetly kvasnicovy
- abv: 2,8%
+  type: Svetly kvasnicovy
+  abv: 2,8%
 - name: Louvain
- type: Svetly lezak
- abv: 4,5%
- id: 0
- - name: Chabanel
- type: Pilsner montréalaise
- abv: 5%
- id: 1
- - name: "St-Laurent"
- type: Kölsch
- abv: 5%
- id: 2
- - name: Fleury
- type: Altbier
- abv: 5%
- id: 3
+  type: Svetly lezak
+  abv: 4,5%
+  id: 0
+- name: Chabanel
+  type: Pilsner montréalaise
+  abv: 5%
+  id: 1
+- name: "St-Laurent"
+  type: Kölsch
+  abv: 5%
+  id: 2
+- name: Fleury
+  type: Altbier
+  abv: 5%
+  id: 3
 - name: IPA mangue
- type: IPA
- abv: 7%
- - name: Ginette
- type: Sure houblonnée
- abv: 3,5 %
- - name: Irma
- type: Session IPA
- abv: 4%
- - name: Bob
- type: APA
- abv: 5,5%
- - name: Francesco
- type: Porter noix de coco
- abv: 4,8%
- - name: Cidre CID
- abv: 5%
+  type: IPA
+  abv: 7%
+- name: Ginette
+  type: Sure houblonnée
+  abv: 3,5 %
+- name: Irma
+  type: Session IPA
+  abv: 4%
+- name: Bob
+  type: APA
+  abv: 5,5%
+- name: Francesco
+  type: Porter noix de coco
+  abv: 4,8%
+- name: Cidre CID
+  abv: 5%
