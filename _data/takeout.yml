@@ -22,18 +22,20 @@
   type: IPA à la goyave
   abv: 7%
   id: 5
-- name: Lagerbier
-  type: Bière franconienne
-  abv: 5%
-  id: 6
-- name: Silo C
-  type: IPA aux houblons classiques
-  abv: 6,5%
-  id: 7
-- name: Desitka
-  type: Svetly vycepni
-  abv: 3,7%
-  id: 8 
+#- name: Lagerbier
+#  type: Bière franconienne
+#  abv: 5%
+#  id: 6
+#- name: Silo C
+#  type: IPA aux houblons classiques
+#  abv: 6,5%
+#  id: 7
+#- name: Desitka
+#  type: Svetly vycepni
+#  abv: 3,7%
+#  id: 8
+- name: Pils de la galaxie CHEERS
+  abv: 3,5%
 - name: Bob
   type: APA
   abv: 5,5%
@@ -46,7 +48,11 @@
   type: Porter noix de coco
   abv: 4,6%
   link: https://birra.ca
-- name: Léandre
-  type: NEIPA double dry hop
-  abv: 7%
+#- name: Léandre
+#  type: NEIPA double dry hop
+#  abv: 7%
+#  link: https://birra.ca
+- name: Horace
+  type: Saison
+  abv: 6,5%
   link: https://birra.ca
