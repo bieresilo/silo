@@ -35,6 +35,7 @@
 #  abv: 3,7%
 #  id: 8
 - name: Pils de la galaxie CHEERS
+  type: Pils
   abv: 3,5%
 - name: Bob
   type: APA
