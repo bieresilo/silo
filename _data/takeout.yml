@@ -1,11 +1,11 @@
-- name: Louvain
-  type: Svetly lezak
-  abv: 4,5%
-  id: 0
-- name: Chabanel
-  type: Pilsner montréalaise avec maïs
-  abv: 5%
-  id: 1
+#- name: Louvain
+#  type: Svetly lezak
+#  abv: 4,5%
+#  id: 0
+#- name: Chabanel
+#  type: Pilsner montréalaise avec maïs
+#  abv: 5%
+#  id: 1
 - name: St-Laurent
   type: Kölsch
   abv: 5%
@@ -18,14 +18,22 @@
   type: Schwarzbier
   abv: 5%
   id: 4
+- name: Silo F
+  type: Sure aux fraises du Québec
+  abv: 4,5%
+  price: "4,50"
 - name: Silo G
   type: IPA à la goyave
   abv: 7%
   id: 5
-#- name: Lagerbier
-#  type: Bière franconienne
-#  abv: 5%
-#  id: 6
+- name: Margrethe (Collab Épitaphe)
+  type: NEPA
+  abv: 6,5%
+  price: 3,75/7,50 
+- name: Lagerbier
+  type: Bière franconienne
+  abv: 5%
+  id: 6
 #- name: Silo C
 #  type: IPA aux houblons classiques
 #  abv: 6,5%
