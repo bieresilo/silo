@@ -31,14 +31,38 @@
   type: Altbier
   abv: 5%
   id: 3
-  
+- name: Bob
+  type: APA
+  abv: 5,5%
+  link: https://birra.ca
+- name: Irma
+  type: Session IPA
+  abv: 4%
+  link: https://birra.ca
+- name: Ginette
+  type: Sure houblonnée
+  abv: 3,5%
+  link: https://birra.ca
+- name: Francesco
+  type: Porter noix de coco
+  abv: 4,6%
+  link: https://birra.ca
+- name: Horace
+  type: Saison
+  abv: 6,5%
+  link: https://birra.ca
+- name: Margrethe (Collab Épitaphe)
+  type: NEPA
+  abv: 6,5%
+- name: Léandre
+  type: NEIPA double dry hop
+  abv: 7%
+  link: https://birra.ca
+
 #- name: St-Laurent
 #  type: Kölsch
 #  abv: 5%
 #  id: 2
-#- name: Margrethe (Collab Épitaphe)
-#  type: NEPA
-#  abv: 6,5%
 #- name: Lagerbier
 #  type: Bière franconienne
 #  abv: 5%
@@ -50,23 +74,3 @@
 #- name: Pils de la galaxie CHEERS
 #  type: Pils
 #  abv: 3,5%
-#- name: Bob
-#  type: APA
-#  abv: 5,5%
-#  link: https://birra.ca
-#- name: Ginette
-#  type: Sure houblonnée
-#  abv: 3,5%
-#  link: https://birra.ca
-#- name: Francesco
-#  type: Porter noix de coco
-#  abv: 4,6%
-#  link: https://birra.ca
-#- name: Léandre
-#  type: NEIPA double dry hop
-#  abv: 7%
-#  link: https://birra.ca
-#- name: Horace
-#  type: Saison
-#  abv: 6,5%
-#  link: https://birra.ca
