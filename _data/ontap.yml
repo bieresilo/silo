@@ -1,54 +1,47 @@
 - name: Lagerbier
   type: Lager franconienne
   abv: 5%
-  price: 3,50/7,00
 - name: Desitka
   type: Pilsner tchèque
   abv: 3,7%
-  price: 3,50/7,00
 - name: St-Laurent
   type: Kölsch
-  abv: 5%
-  price: 3,50/7,00  
+  abv: 5%  
 - name: Fleury
   type: Altbier
   abv: 5%
   id: 3
-  price: 3,50/7,00
+- name: Legendre
+  type: Dunkel, Lager brune 
+  abv: 4,8 %
 - name: Silo C
   type: IPA 100% Cascade
   abv: 7%
-  price: "4,00"  
-- name: Silo mangue
-  type: IPA
-  abv: 7%
-  price: "4,00"
-- name: Margrethe (Collab Épitaphe)
-  type: NEPA
-  abv: 6,5%
-  price: 3,75/7,50  
-- name: Irma
-  type: Session IPA
-  abv: 4%
-  price: 3,50/7,00
-- name: Birra Bob
-  type: APA
-  abv: 5,5%
-  price: 3,50/7,00
+- name: Chabanel
+  type: Pilsner montréalaise
+  abv: 5%  
 - name: Ginette
   type: Sure houblonnée
-  abv: 3,5%
-  price: 3,50/7,00  
+  abv: 3,5% 
+- name: Margrethe (Collab Épitaphe)
+  type: NEPA
+  abv: 6,5% 
 - name: Birra Horace
   type: Saison avoine, gingembre et poivres
   abv: 6,5%
-  price: 3,50/7,00
+- name: Irma
+  type: Session IPA
+  abv: 4%
 - name: Cidre CID - Milton
   type: Cidre
   abv: 5%
-  price: 3,75/7,50
   
-  
+#- name: Silo mangue
+#  type: IPA
+#  abv: 7%  
+#- name: Birra Bob
+#  type: APA
+#  abv: 5,5%  
 #- name: Petite Pils de la galaxie (Collab Cheers)
 #  type: Pils
 #  abv: 3,5%
